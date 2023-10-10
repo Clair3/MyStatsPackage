@@ -10,7 +10,7 @@
     end
 
     @testset "rse_mean" begin
-        @test rse_mean([1, 2, 3]) == 2
+        @test rse_mean([1, 2, 3])==2
         @test rse_mean(-15:17) == 1
         @test rse_mean([1, 3, 6]) ≈ 3.333 atol = 1e-3
 
