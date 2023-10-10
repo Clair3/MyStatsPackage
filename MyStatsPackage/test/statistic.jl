@@ -20,6 +20,10 @@
         @test rse_std(1:3) == 1
     end
 
+
+
+
+    
     @testset "rse_tstat" begin
         @test rse_tstat(2:3) == 5
     end
