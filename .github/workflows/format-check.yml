@@ -27,6 +27,6 @@ jobs:
           end' 
       - name: Test code
         run: |
-          julia -e ']test'
+          julia -e 'using Pkg; Pkg.test()'
 
           
