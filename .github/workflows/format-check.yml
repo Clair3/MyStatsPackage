@@ -25,3 +25,8 @@ jobs:
               write(stdout, out)
               exit(1)
           end' 
+      - name: Test code
+        run: |
+          julia -e '] test'
+
+          
