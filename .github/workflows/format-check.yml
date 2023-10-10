@@ -27,7 +27,6 @@ jobs:
           end' 
       - name: Test code
         run: |
-          julia -e ']activate .'
           julia -e ']test'
 
           
